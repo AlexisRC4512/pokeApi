@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+body{
+    background-color: rgb(230, 228, 228);
+}
+h1{
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50px;
+    color: rgb(247, 49, 15);
+}
+.box{
+   margin-top: 70px;
+    padding: 50px;
+    align-items: center;
+   border-radius: 20px;
+   text-align: center;
+   line-height: 2px;
+    background-color: white;
+}
+.searchPokemon{
+    margin-left: 200px;
+    
+}
+#numberPoke{
+    color: rgb(158, 154, 154);
+    font-size: 70px;
+}
+.stats1{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+#information {
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(202, 192, 192);
+    padding: 20px
+}
+p{
+    color: rgb(77, 75, 75);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.stats1 p{
+    color: rgb(8, 8, 8);
+}
+@media(max-width:600px){
+    .searchPokemon{
+        margin-left: 0px;
+        
+    }
+}
