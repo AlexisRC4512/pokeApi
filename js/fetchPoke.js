@@ -5,7 +5,7 @@ d.addEventListener('click',(e)=>{
         console.log("hola");
         
         const namePoke=d.getElementById("namePoke");
-        const pokemon=d.getElementById('pokemon').value
+        const pokemon=d.getElementById('pokemon').value.toLowerCase();
         const tipoPoke=d.getElementById('tipoPoke');
         const tipoPoke2=d.getElementById('tipoPoke2');
         const numberPoke=d.getElementById('numberPoke');
